@@ -64,6 +64,45 @@ body {
     transition: 0.2s;
 }
 
+.input{
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.input:focus{
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #6A67CE;
+}
+
+.addButton{
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #6A67CE;
+    margin: 10px;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #6A67CE;
+    transition: 0.3s;
+}
+
+.addButton:hover{
+    border-color: #5b58bb;
+    background-color: #5b58bb;
+}
+
 .btn:hover {
     color: #9390eb;
 }
